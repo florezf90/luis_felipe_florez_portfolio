@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Felipe Florez Resume</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to <span class="highlight">My personal portfolio!</span></h1>
+        <nav>
+             <a href="./pages/careerGoals.html">Career goals</a>
+             <a href="./pages/coverLetter.html">Cover Letter</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2><em>About Me</em></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis nisi iure quis, veritatis dolorum enim ullam nesciunt <br>
+                     voluptatum adipisci commodi tempora delectus maiores sunt fugiat culpa laudantium? Ipsa, nihil ad?</p>
+            </article>
+            <hr>
+            <article>
+                    <h2>Profesional Profile</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti quibusdam doloremque suscipit nihil quia quo culpa obcaecati, libero facilis totam <br>
+                    facere fugit autem accusantium, veniam reiciendis voluptatibus. Ratione, maiores illum.</p>
+                    <h2>Skills</h2>
+                    <table>
+                        <caption>Skills Overview</caption>
+                        <thead>
+                            <tr>
+                                <th> Skills </th>
+                                <th> Proficiency </th>
+                                <th> Yrs Of Experience </th>
+                                <th> Category </th>
+                            </tr>
+                        </thead>
+                            <tbody>
+                                <tr>
+                                    <td>HTML/CSS</td>
+                                    <td>Intermediate</td>
+                                    <td>2</td>
+                                    <td>Front-end</td>
+                                </tr>
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>Intermediate</td>
+                                    <td>2</td>
+                                    <td>Front-end</td>
+                                </tr>
+                                <tr>
+                                    <td>Customer Success</td>
+                                    <td>Proficient</td>
+                                    <td>3</td>
+                                    <td>Professional</td>
+                                </tr>
+                                <tr>
+                                    <td>Bilingual Communication <br> (EN/ES)</td>
+                                    <td>Professional</td>
+                                    <td>8</td>
+                                    <td>Communication</td>
+                                </tr>
+                            </tbody>
+                    </table>
+            </article>
+            <hr>
+            <article>
+                <h2>Experience</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit cumque ab nam voluptatibus soluta explicabo nulla sit totam, sed molestias illo beatae corporis, eaque ipsam, neque nihil sint eveniet. Distinctio!
+                Laborum dolores earum architecto esse vero distinctio, reprehenderit ea natus eveniet numquam ipsam quisquam nulla nam temporibus dignissimos qui labore beatae aliquam veritatis dolor. Nulla reprehenderit itaque eveniet autem atque.
+                Unde expedita modi ab nostrum, ducimus iste porro! Nisi molestiae sint assumenda asperiores! Debitis provident suscipit vitae adipisci. Doloremque adipisci corrupti odit pariatur et quaerat enim quas, tenetur odio. Blanditiis?</p>
+            
+            </article>
+            <hr>
+            <article>
+                <h2>Education</h2>
+            </article>
+            <hr>
+        </section>
+    </main>
+    <footer>
+        <h2>Contact me</h2>
+        <ul>
+            <li><strong>Email: </strong><a href="mailto:florezf90@gmail.com">florezf90@gmail.com</a></li>
+            <li><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/luis-felipe-florez-98403123a/"> Luis Felipe florez</a></li>
+            <li><strong>Phone Number: <a href="tel:8303180468">Reach By phone</a></strong></li>
+        </ul>
+    </footer>
+    <div id="current-date"></div>
+    <script>
+        const today = new Date();
+        document.getElementById("current-date").textContent = "Last Updated: " + today.toDateString();
+        console.log("Resume loaded successfully!")
+    </script>
+</body>
+</html>
