@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luis Felipe Florez - Career Goals</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>Where I Vision Myself....</h1>
+        <nav>
+            <a href="./coverLetter.html">Cover Letter</a>
+            <a href="../index.html">My Resume</a>
+        </nav>
+    </header>
+    <main>
+        <h2>My Career Vision</h2>
+        <p>I am building toward a career at the intersection of customer success and cloud technology — combining my operational background in client relationship management with the technical foundation I am developing through my Computer Science degree.</p>
+
+        <img src="../resources/images/goals2.png" alt="Luis Felipe Florez professional headshot">
+
+        <h2>Listen to My Career Goals</h2>
+        <audio controls src="../resources/audio/Morning_Target.mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <h2>Watch My Introduction</h2>
+        <video controls width="100%" src="../resources/video/profesionalvid.mp4">
+            Your browser does not support the video element.
+        </video>
+
+        <h2>Get In Touch</h2>
+        <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+            <div>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required 
+                pattern="[A-Za-zÀ-ÿ\s]+" oninput="this.value = this.value.replace(/[^A-Za-zÀ-ÿ\s]/g, '')">
+            </div>
+            <div>
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required 
+                pattern="[A-Za-zÀ-ÿ\s]+" oninput="this.value = this.value.replace(/[^A-Za-zÀ-ÿ\s]/g, '')">
+            </div>
+            <div>
+                <label for="companyName">Company Name:</label>
+                <input type="text" id="companyName" name="companyName">
+            </div>
+            <div>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" title="please add your 10 digits number" 
+                maxlength="10" pattern="[0-9]{10}" oninput="this.value = this.value.replace(/[^0-9]/g, '')">
+            </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" cols="40"></textarea>
+            </div>
+            <fieldset>
+                <legend>Best Contact Time:</legend>
+                <input type="radio" id="am" name="contactTime" value="a.m.">
+                <label for="am">a.m.</label>
+
+                <input type="radio" id="pm" name="contactTime" value="p.m.">
+                <label for="pm">p.m.</label>
+
+                <input type="radio" id="anytime" name="contactTime" value="anytime">
+                <label for="anytime">anytime</label>
+            </fieldset>
+            <div>
+                <label for="contactMethod">Preferred Contact Method:</label>
+                <select id="contactMethod" name="contactMethod">
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                    <option value="text">Text</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <h2>Contact me</h2>
+        <ul>
+            <li><strong>Email: </strong><a href="mailto:florezf90@gmail.com">florezf90@gmail.com</a></li>
+            <li><strong>LinkedIn: </strong><a href="https://www.linkedin.com/in/luis-felipe-florez-98403123a/"> Luis Felipe Florez</a></li>
+            <li><strong>Phone Number: </strong><a href="tel:8303180468">Reach By Phone</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
